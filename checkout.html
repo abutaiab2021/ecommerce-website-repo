@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<!-- bootstrap link-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!--font-icon link-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--drop down link -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>eElectronics</title>	  
+  <link rel="stylesheet" type="text/css" href="stylecheckout.css">
+</head>
+
+<body  style="background-color: #fff; margin:0;">
+
+
+
+
+  <!--user font ausome icon -->
+  <div class="header-area">
+   <div class="col-sm-8 user">
+
+     <div class="user">
+       <ul>         
+        <li>
+          <a href="#"><i class="fa fa-user"></i>Myaccount</a>
+          <a href="#"><i class="fa fa-user"></i>Wishlist</a>
+          <a href="#"><i class="fa fa-user"></i>My Cart</a>
+          <a href="#"><i class="fa fa-user"></i>Checkout</a>
+          <a href="#"><i class="fa fa-user"></i>Login</a>
+        </li>    
+      </ul>
+    </div>  
+
+  </div>
+  <!--end -->
+
+  <!--dropdown menu bar -->
+   <div class="col-md-4">
+  <div class="header-right">
+      <ul class="list-unstyled list-inline">
+          <li class="dropdown dropdown-small" id="dropdown-small1">
+              <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">currency :</span><span class="value">USD </span><b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                  <li><a href="#">USD</a></li>
+                  <li><a href="#">INR</a></li>
+                  <li><a href="#">GBP</a></li>
+              </ul>
+          </li>
+
+          <li class="dropdown dropdown-small" id="dropdown-small">
+              <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">language :</span><span class="value">English </span><b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                  <li><a href="#">English</a></li>
+                  <li><a href="#">French</a></li>
+                  <li><a href="#">German</a></li>
+              </ul>
+          </li>
+      </ul>
+  </div>
+</div>
+</div>
+<!--end -->
+
+
+
+
+<div class=col-sm-6>
+  <h1 style="margin-left: 90px;">
+    e<span style="color:#1abc9c;">
+     Electronics
+   </span>
+ </h1>
+
+</div>
+
+<div class="col-sm-6">
+
+ <div class="shopping-item">
+  <a href="cart.html">Cart -
+    <span class="Cart-amunt">$800</span>
+    <i class=" fa fa-shopping-cart" id="fa-cart"></i>
+    <span class="product-count">5</span>	   
+  </a>
+
+</div>
+
+</div>
+
+<div class="col-sm-12"  style="background-color: #1abc9c;">
+ <div class="col-sm-12">
+   <div class="topmanuvar">	
+     <a  id="cs-hm" href="indexdemo.html" hspace="10"><b>Home</b></a>
+     <a href="shop_page.html" hspace="10"><b>Shop page</b></a>
+     <a href="singel-product.html" hspace="10"><b>Single Product</b></a>
+     <a href="cart.html" hspace="10"><b>Cart</b></a>
+     <a class="active" href="checkout.html" hspace="10"><b>Checkout</b></a>
+     <a  href="#" hspace="10"><b>Category</b></a>
+     <a href="#" hspace="10"><b>Others</b></a>
+     <a href="#" hspace="10"><b>Contact</b></a>		  
+   </div>
+
+ </div>
+
+ <div class="container">
+   <div class="col-sm-12">
+    <div class="shop">
+      <h1 style="color: #fff;">Shopping Cart</h1>
+    </div>		
+  </div>	
+</div>
+</div>
+
+
+
+<div class="container">
+  <div class="row">
+   <div class="col-sm-4">
+
+    <div class="single-sidebar">
+      <h2 class="sidebar-title">Search Products</h2>
+      <form action>
+       <input type="text" name="Search Products" class="search" placeholder="Search_product.....">
+       <br>
+       <input type="submit" value="Search" class="checkout">			
+     </form>		 
+   </div>
+
+   <div class="single-sidebar1">
+     <h2 class="sidebar-title"> Products</h2>
+
+     <div class="product">
+       <img src="images\product-4.jpg"  alt="image" width="70" height="70" hspace="10" margin-top="10px;">
+       <h5>
+        <a href="#">Sony Smart TV -2015</a>
+      </h5>
+
+      <div class="product-price">
+        <h6>
+         <ins>$5000</ins>   
+         <del>$6000</del>
+       </h6>						
+     </div>
+   </div>    
+
+   <div class="product">
+    <img src="images\product-4.jpg"  alt="image" width="70" height="70" hspace="10">
+    <h5>
+      <a href="#">Sony Smart TV -2015</a>
+    </h5>
+    <div class="product-price">
+      <h6>
+        <ins>$5000</ins> 
+        <del>$6000</del>
+      </h6>
+
+    </div>          
+  </div>
+
+  <div class="product">
+    <img src="images\product-4.jpg"  alt="image" width="70" height="70" hspace="10">
+    <h5>
+      <a href="#">Sony Smart TV -2015</a>
+    </h5>
+    <div class="product-price">
+      <h6>
+        <ins>$5000</ins>   
+        <del>$6000</del>
+      </h6>
+
+    </div>          
+  </div>
+
+  <div class="product">
+    <img src="images\product-4.jpg"  alt="image" width="70" height="70" hspace="10">
+    <h5>
+      <a href="#">Sony Smart TV -2015</a>
+    </h5>
+    <div class="product-price">
+     <h6>
+      <ins>$5000</ins>   
+      <del>$6000</del>
+    </h6>
+
+  </div>          
+</div>
+
+</div>
+
+<div class=" single-sidebar">
+	<h2 class="sidebar-title">RECENT POSTS</h2>
+  <ul class="recent-post">
+   <li>
+    <a href>Sony Smart TV -2015</a>
+  </li>
+  <li>
+    <a href>Sony Smart TV -2015</a>
+  </li>
+  <li>
+    <a href>Sony Smart TV -2015</a>
+  </li>
+  <li>
+    <a href>Sony Smart TV -2015</a>
+  </li>
+  <li>
+    <a href>Sony Smart TV -2015</a>
+  </li>
+</ul>			
+</div>
+
+</div>
+
+
+<div class="col-md-8">
+  <div class="woocommerce"> 
+   <div class="woocommerce-info" >
+    Returning customer?
+    <a class="showlogin collapsed" href="#login-form-wrap" data-toggle="collapse" aria-expended="false" aria-controls="login-form-wrap"><b>Click here to login</b></a>
+  </div>
+
+
+  <form id="login-form-wrap" class="login-form-wrap collapse" method="post" aria-expanded="false" style="height: 0px;">
+   <div class="jumbotron"  id="botron" >
+     <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing & Shipping section.</p>
+     <br>
+     <div class="fill">
+      <label for="fill-up" class="username-textfild">
+       <p><b>UserName or Email*</b></p>
+       <br>   
+       <input type="text" name="username" id="username" class="username-button">                      			
+     </label>		
+   </div>
+
+   <br>
+   <div class="fill">
+    <label for="fill-up">
+     <p><b>Password*</b></p><br> 
+     <input type="text" name="password" id="password" class="password">                        			
+   </label>		
+ </div>
+
+
+ <p class="form-row">
+   <input type="submit"  value="login"  name="login" class="checkout">
+   <label class="ratio-inline" for="rememberme">
+    <input type="checkbox" value="" name="rememberme" id="rememberme">
+    rememberme
+  </label>
+</p>
+
+<p class="lost-password">
+ <a href="#" class="lost">Lost your password?</a>	
+</p>
+</div>	
+<div class="clear"></div>	                  	    	
+</form>
+
+
+
+<div class="woocommerce-info1" >
+  Have a coupon ?
+  <a class="showcoupon collapsed" href="#coupon-collapse-wrap" data-toggle="collapse" aria-expended="false" aria-controls="coupon-collapse-wrap-wrap"><b>Click here to enter your code</b></a>
+</div>
+<form id="coupon-collapse-wrap" method="post" class="coupon-collapse-wrap collapsed collapse" style="height: 0px;">
+
+ <div class="jumbotron"  id="botron1" >
+
+   <p class="form-row form-row-first ">
+    <input type="text" value id="coupon-code" name="coupon-code" placeholder="coupon code" class="input-text">
+  </p>
+
+  <p class="form-row form-row-last">
+    <input type="submit" value="Apply Coupon" name="Apply_coupon" class="checkout">
+  </p>
+</div>
+</form>
+</div>
+
+
+<div class="row">
+  <div class="col-sm-6">
+   <h4 class="BILLING"><b>BILLING DETAILS</b></h4>
+   <form>
+    <div class="country">
+     <label for="select-list">
+      Country
+      <abbr title="required" id="required">*<br></abbr>
+    </label>
+    <select class="country" id="select">
+      <option>united kingdom(UK)</option>
+      <option>Swizarland</option>
+      <option>Suriya</option>
+      <option>Pakistan</option>
+      <option>Idian</option>
+      <option>London</option>
+      <option>Canada</option>
+      <option>Dobai</option>
+      <option>Bangladesh</option>
+      <option>Gana</option>
+      <option>Austrolia</option>
+      <option>Japan</option>
+      <option>Itali</option>
+      <option>Rasia</option>
+      <option>Panjab</option>
+      <option>Katar</option>
+      <option>Koris</option>
+      <option>Kuwit</option>
+      <option>Baharain</option>
+      <option>Jordan</option>
+      <option>Libiya</option>
+      <option>Irak</option>
+      <option>Iran</option>
+      <option>united kingdom(UK)</option>
+    </select>
+    <br>
+    <br>
+    <div class="fill">
+     <label for="fill-up">
+      FirstName
+      <abbr title="required" id="required">*<br></abbr>
+    </label>
+    <input type="text" name="FirstName" id="FirstName" class="FirstName">
+  </div>
+
+  <br>
+
+  <div class="fill">
+   <label for="fill-up">
+    LastName
+    <abbr title="required" id="required">*<br></abbr>
+  </label>
+  <input type="text" name="LastName" id="LastName" class="LastName">
+</div>
+
+<br>
+<div class="fill">
+ <label for="fill-up">
+  CompanyName
+</label>
+<input type="text" name="CompanyName" id="CompanyName" class="CompanyName">
+</div>
+
+<br>
+<div class="fill">
+ <label for="fill-up">
+  Address
+  <abbr title="required" id="required">*<br></abbr>
+</label>
+<input type="text" name="Address" id="Address" placeholder="street-holder" class="Address">
+<br>
+<input type="text" name="Address1" id="Address1" placeholder="Apartment,suite,unit etc(option)" class="Address1">
+</div>
+
+<br>
+<div class="fill">
+ <label for="fill-up">
+  Town/cyit
+  <abbr title="required" id="required">*<br></abbr>
+</label>
+<input type="text" name="cyit" id="cyit" placeholder="town/city" class="cyit">
+</div>
+
+<br>
+<div class="fill">
+ <label for="fill-up">
+  county
+  <abbr title="required" id="required">*<br></abbr>
+</label>
+<input type="text" name="cyit" id="cyit" placeholder="state/county" class="cyit">
+</div>
+
+<br>
+<div class="fill">
+ <label for="fill-up">
+  PostCode
+  <abbr title="required" id="required">*<br></abbr>
+</label>
+<input type="text" name="cyit" id="cyit" placeholder="PostCode/Zip" class="cyit">
+</div>
+
+<br>
+<div class="fill">
+ <label for="fill-up">
+  EmailAddress
+  <abbr title="required" id="required">*<br></abbr>
+</label>
+<input type="text" name="cyit" id="cyit" placeholder="email" class="cyit">
+</div>
+
+<br>
+<div class="fill">
+ <label for="fill-up">
+  Phone
+  <abbr title="required" id="required">*<br></abbr>
+</label>
+<input type="text" name="cyit" id="cyit"  class="cyit">
+</div>
+
+
+<br>
+<div class="Account">
+  <p>Create an account by entering the information below. If you are a returning customer please login at the top of the page.</p>
+  <label for="fill-up">
+    Account password
+    <abbr title="required" id="required">*<br></abbr>
+  </label>
+  <input type="text" name="Account" id="Account" placeholder="Password..." class="Account-text-field">
+</div>
+
+</form>
+</div>
+</div>
+
+<div class="col-sm-6">
+  <h4 style="color: #1abc9c;"><b>SHIP TO A DIFFERENT ADDRESS?</b></h4>                    
+  <div class="country">
+    <input type="checkbox" value="" name="country" id="country">
+    <br>
+    <label for="select-country-list">
+      Country
+      <abbr title="required" id="required">*<br></abbr>
+    </label>
+    <select class="country" id="select">
+      <option>united kingdom(UK)</option>
+      <option>Swizarland</option>
+      <option>Suriya</option>
+      <option>Pakistan</option>
+      <option>Idian</option>
+      <option>London</option>
+      <option>Canada</option>
+      <option>Dobai</option>
+      <option>Bangladesh</option>
+      <option>Gana</option>
+      <option>Austrolia</option>
+      <option>Japan</option>
+      <option>Itali</option>
+      <option>Rasia</option>
+      <option>Panjab</option>
+      <option>Katar</option>
+      <option>Koris</option>
+      <option>Kuwit</option>
+      <option>Baharain</option>
+      <option>Jordan</option>
+      <option>Libiya</option>
+      <option>Irak</option>
+      <option>Iran</option>
+      <option>united kingdom(UK)</option>
+    </select>
+
+
+    <br>
+    <div class="fill">
+      <label for="fill-up">
+        FirstName
+        <abbr title="required" id="required">*<br></abbr>
+      </label>
+      <input type="text" name="FirstName" id="FirstName" class="FirstName">
+    </div>
+
+    <br>                                
+    <div class="fill">
+     <label for="fill-up">
+       LastName
+       <abbr title="required" id="required">*<br></abbr>
+     </label>
+     <input type="text" name="LastName" id="LastName" class="LastName">
+   </div>
+
+   <br>
+   <div class="fill">
+     <label for="fill-up">
+       CompanyName
+     </label>
+     <input type="text" name="CompanyName" id="CompanyName" class="CompanyName">
+   </div>
+
+   <br>
+   <div class="fill">
+     <label for="fill-up">
+      Address
+      <abbr title="required" id="required">*<br></abbr>
+    </label>
+    <input type="text" name="Address" id="Address" placeholder="street-holder" class="Address">
+    <br>
+    <input type="text" name="Address1" id="Address1" placeholder="Apartment,suite,unit etc(option)" class="Address1">
+  </div>
+
+  <br>
+  <div class="fill">
+   <label for="fill-up">
+     Town/cyit
+     <abbr title="required" id="required">*<br></abbr>
+   </label>
+   <input type="text" name="cyit" id="cyit" placeholder="town/city" class="cyit">
+ </div>
+
+ <br>
+ <div class="fill">
+   <label for="fill-up">
+     county
+     <abbr title="required" id="required">*<br></abbr>
+   </label>
+   <input type="text" name="cyit" id="cyit" placeholder="state/county" class="cyit">
+ </div>
+
+ <br>
+ <div class="fill">
+   <label for="fill-up">
+     PostCode
+     <abbr title="required" id="required">*<br></abbr>
+   </label>
+   <input type="text" name="cyit" id="cyit" placeholder="PostCode/Zip" class="cyit">
+ </div>
+
+ <br>
+ <div class="fill">
+   <label for="fill-up">
+     Order Notes
+     <textarea rows="4" cols="42" placeholder="Notes about your order e.g special notes for delivary "></textarea>                                    
+   </label>                                
+ </div>
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="row">
+  <div class="col-sm-12">
+   <h4 style="color: #1abc9c;"><b>YOUR ORDER</b></h4>
+   <div class="order-table">
+     <table>
+       <tr>
+         <th >PRODUCT</th>
+         <th >TOTAL</th>					  
+       </tr>
+       <tr>
+         <td><b>Ship Your Idea × 1</b></td>
+         <td><b>£15.00</b></td>					    
+       </tr>
+       <tr>
+         <td "><b>CART SUBTOTAL</b></td>
+         <td><b>£15.00</b></td>					   
+       </tr>
+       <tr>
+         <td "><b>SHIPPING AND HANDLING</b></td>
+         <td><b>Free Shipping</b></td>					    
+       </tr>
+       <tr>
+         <td "><b>ORDER TOTAL</b></td>
+         <td><b>£15.00</b></td>					   
+       </tr>												  
+     </table>
+   </div>
+ </div>
+</div>
+
+
+
+<div class="radio-checkbox">
+ <form>
+  <div class="radio">
+   <label><input type="radio" name="optradio"><strong>Direct Bank Transfer</strong></label>
+   <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+ </div>
+</form>
+
+<form>
+  <div class="radio">
+   <label><input type="radio" value="1" name="optradio"><strong>Cheque Payment</strong></label>
+ </div>
+</form>
+
+<form>
+ <div class="radio">
+   <label><input type="radio" value="2" name="optradio"><strong>Paypal</strong> <img src="images\paypal.png"  alt="image" width="250" height="50" hspace="10"> <a href="#">what is paypal?</a>
+   </label>
+ </div>
+</form>
+
+<p class="place-order">
+  <input type="submit" value="PLACE ORDER" name="Place Order" class="checkout">
+</p>
+
+</div>
+</div>
+</div>
+</div>	
+
+
+      
+  <div class="col-sm-12 " style="background-color: #000;">    
+   <div class="col-sm-3 eletron-text1">         
+    <h3 style="color: grey;"> e<span style="color:#1abc9c"><u>Electronics</u></span></h3>  
+    <div class="col-sm-12"> 
+      <p>
+        <span style="color:black;">
+          <div class="well well-sm" style="background-color: #000;color: grey;">
+            <b> Electronics is the science of controlling electrical energy  electrically, 
+             in which the electrons have a fundamental role. Electronics deals with 
+           devices contain circuitry consisting primarily or exclusively of </b>
+         </div>
+       </span>                              
+     </p>
+     <a href="#" class="fa fa-facebook" id="facebook"></a>
+     <a href="#" class="fa fa-twitter" id="facebook"></a>
+     <a href="#" class="fa fa-linkedin" id="facebook"></a>
+     <a href="#" class="fa fa-youtube" id="facebook"></a>
+     <a href="#" class="fa fa-instagram" id="facebook"></a>      
+   </div>
+ </div>
+
+ <div class="col-sm-3 eletron-text2" id="navigation">                  
+   <h3 ><span style="color:#fff;">User Navigation</span> </h3>
+   <ul >
+
+    <li style="list-style: none"><a href="#">My Account</a></li>
+
+    <li style="list-style: none"><a href="#">Order history</a></li>    
+
+    <li style="list-style: none"><a href="#">Wishlist</a></li> 
+
+    <li style="list-style: none"><a href="#">Vendor Contact</a></li>
+
+    <li style="list-style: none"><a href="#">Front page</a></li>
+
+  </ul>
+
+</div>
+
+
+<div class="col-sm-3 eletron-tex3" id="categori">   
+
+ <h3 ><span style="color:#fff;">Categories</span> </h3>
+ <ul>    
+
+  <li style="list-style: none"><a href="#">Mobile phone</a></li>
+
+  <li style="list-style: none"><a href="#">Home accesseries</a></li> 
+
+  <li style="list-style: none"><a href="#">LED TV</a></li>   
+
+  <li style="list-style: none"><a href="#">Computer</a></li>
+
+  <li style="list-style: none"><a href="#">Gates</a></li>                    
+</ul>       
+</div>
+
+<div class="col-sm-3 eletron-text4">                 
+ <h3 ><span style="color:#fff;">Newsletter</span> </h3>
+ <p>
+  <span style="color:grey;">
+    Sign up to our newsletter and get exclusive deals you wont
+    find anywhere else straight to your inbox!
+  </span></p>
+  <input type="text" name="email"  class="email" placeholder="type your email">
+  <br><br>
+  <button type="button"  id="primary" class="btn btn-primary" >SUBSCRIBE</button>
+ </div>
+</div>
+
+
+<div class="col-sm-12"  style="background-color: #000;">
+  <div class="col-md-8">
+    <div class="copyright">
+      <p style="color:#fff;">© 2015 eElectronics. All Rights Reserved. Coded with
+        <i class="fa fa-heart"  ></i>by<a href="http://wexpand.com" target="_blank"><small style="color: #1abc9c;">  WP Expand</small></a></p>
+      </div>
+    </div>
+
+
+    <div class="col-sm-4">
+     <div class="footericon" style="float: left;">
+      <i class="fa fa-cc-discover " id="discover"   ></i>
+      <i class="fa fa-cc-mastercard" id="mastercard"  ></i>
+      <i class="fa fa-cc-paypal" id="paypal"  ></i>
+      <i class="fa fa-cc-visa" id="visa"  ></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

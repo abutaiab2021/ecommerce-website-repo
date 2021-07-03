@@ -1,0 +1,78 @@
+<script>
+	function readURL(input){
+		if (input.files && input.files[0])
+		{
+			var reader = new FileReader();
+			reader.onload = function (e){
+				$('#myImg')
+				.attr('src', e.target.result);
+			};
+			reader.readAsDataURL(input.files[0]);
+		}
+	}
+</script>
+-------------------------------------------------------------------
+<head>
+	<script >
+		function zoom()
+		{
+			var divclass = $ ('#myDiv') .attr ('class');
+			if (divclass === "ex") {
+				$ ('#myDiv') .css ('cursor', 'zoom-in');
+			}
+			else if( divclass === "exZoom") {
+				$ ('#myDiv') .css ('cursor', 'zoom-out');
+			}
+		}
+
+		function my_class (){
+
+		}
+
+		var divclass = $('#myDiv') . attr ('class');
+		//alert(divClass);
+		    if (divClass === "ex") 
+		    {
+				$("#myDiv") .removeClass ("ex");
+				$("#myImg") .removeClass ("ex");
+				$("#myDiv") .addClass ("exZoom");
+				$("#myImg") .addClass ("exZoom");
+		    }
+
+			else if (divClass === "exZoom") 
+			{
+				$("#myDiv") .addClass ("exZoom");
+				$("#myImg") .addClass ("exZoom");
+				$("#myDiv") .removeClass ("ex");
+				$("#myImg") .removeClass ("ex");
+			}
+	</script>
+	<style >
+		.ex
+		{
+			height: 120px;
+			width: 150px;
+			padding: 2px;
+		}
+
+		.exZoom
+		{
+			height: 1000px;
+			width: 1000px;
+			padding: 0px;
+		}
+	</style>
+</head>
+
+<div align="center">
+	<div id="myDiv" class="ex">
+		<img id="myImg"  class="ex" onmouseover="zoom();" onclick="my_class(); zoom();" src="#" alt="" />	
+	</div>	
+</div>
+--------------------------------------------------------------
+
+
+
+<a href="https://www.computersourcebd.com/brand/apple/desktop"></a>
+
+ <a href="https://www.computersourcebd.com/products/brands/apple/notebook"><u>Laptop Details Link(click here)</u> </a>

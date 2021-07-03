@@ -1,0 +1,544 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: arial;
+}
+
+
+/*user font logo */
+.user li{
+  list-style: none;
+}
+.user li a{
+  color: #000;
+  font-size: 13px;
+  margin-left: 17px;
+}
+
+.user li a:hover{
+  color: #1abc9c;
+}
+
+/*drop down*/
+
+.header-right ul.list-inline {
+    margin: 0;
+    text-align: right;
+}
+.header-right ul.list-inline li a {
+    display: block;
+    padding: 9px;
+}
+.header-right ul.list-inline li ul a {
+    padding: 5px 15px;
+}
+.header-right ul.list-inline li ul {
+    border: medium none;
+    border-radius: 0;
+    left: 50%;
+    margin-left: -50px;
+    min-width: 100px;
+    text-align: center;
+}
+#dropdown-small{
+  margin-right: 119px;
+  margin-top: 9px;
+}
+
+.dropdown a{
+  color: grey;
+}
+
+.dropdown a:hover{
+color: #1abc9c;
+}
+
+/* menu bar */
+.topmanuvar {
+  overflow: hidden;
+  background-color: #20c3b4;
+  margin-left: -26px;
+  margin-right: -30px;
+  top: -16px;
+
+}
+.topmanuvar{
+  margin-top:0px;
+  margin-bottom: 75px;
+  /*border: 3px solid red;*/
+
+}
+
+#menuvar b{
+  margin-left: 17px;
+
+}
+
+.topmanuvar a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topmanuvar a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#cs-hm{
+  margin-left: 140px;
+}
+
+.shop h1{
+	font-size: 35px;
+	margin-left: -60px;
+	color: white;
+}
+
+
+
+
+#facebook {
+  font-size: 21px;
+  width: 36px;
+  height: 36px;
+  margin-top: 2px;
+}
+
+#facebook a{
+  margin: 10px;
+
+}
+
+.fa-facebook {
+  background: #1abc9c;
+  color: white;
+  border: 1px solid #fff;
+}
+
+.fa-twitter {
+ background: #1abc9c;
+ color: white;
+ border: 1px solid #fff;
+}
+
+.fa-linkedin {
+ background: #1abc9c;
+ color: white;
+ border: 1px solid #fff;;
+}
+
+.fa-youtube {
+  background: #1abc9c;
+  color: white;
+  border: 1px solid #fff;
+}
+
+.fa-instagram {
+  background: #1abc9c;
+  color: white;
+  border: 1px solid #fff;
+}
+.fa-facebook:hover{
+  color: #1abc9c;
+  background-color: #000;
+}
+
+.fa-linkedin:hover{
+  color: #1abc9c;
+  background-color: #000;
+}
+
+.fa-youtube:hover{
+  color: #1abc9c;
+  background-color: #000;
+}
+.fa-instagram:hover{
+  color: #1abc9c;
+  background-color: #000;
+
+}
+
+.fa-twitter:hover{
+  color: #1abc9c;
+  background-color: #000;
+}
+/*end*/
+
+/* visa logo*/
+.fa-cc-discover{
+
+	color: white;
+	
+}
+.fa-cc-visa{
+
+	color: white;	
+}
+.fa-cc-mastercard{
+	color:white;
+}
+.fa-cc-paypal{
+	color:white;
+}
+/*end*/
+
+
+
+/* shop cart*/
+
+
+
+
+.shopping-item1:hover{
+  background-color:  #red;
+  
+}
+.shopping-item1:hover a{
+  color:white;
+}
+.container{
+  height: 80px;
+  width: 150px;
+  margin-left: 45%;
+}
+.shop h1{
+  color: #fff;
+  
+}
+.single_product img{
+ height: 210px;
+ width: 160px;
+}
+
+
+
+/*end*/
+
+/* shopping cart code css*/
+.shopping-item {
+  border: 1px solid #ddd;
+  float: right;
+  font-size: 18px;
+  margin-top: 21px;
+  margin-bottom: 14px;
+  margin-right: 135px;
+  padding: 10px;
+  position: relative;
+}
+
+.shopping-item:hover{
+  background-color:#1abc9c;
+}
+
+.shopping-item a:hover{
+  color: #fff;
+}
+
+
+.shopping-item a {
+  color: #666;
+}
+
+
+
+.cart-amunt {
+  color: #1abc9c;
+  font-weight: 700;
+}
+
+
+
+.shopping-item i.fa {
+  margin-left: 15px;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+.product-count {
+  background: none repeat scroll 0 0 #1abc9c;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  font-size: 10px;
+  height: 20px;
+  padding-top: 2px;
+  position: absolute;
+  right: -10px;
+  text-align: center;
+  top: -10px;
+  width: 20px;
+}
+
+.product-count:hover{
+  background-color: #000;
+}
+/*end*/
+
+
+
+button.prev:hover
+{
+  border-color: black;
+}
+
+#img-name{
+ color: #1abc9c;
+}
+
+.img-thumbnail4{
+ display: inline-block;
+ max-width: 100%;
+ padding: 4px;
+ line-height: 1.42857143;
+ margin-left: 27px;
+ margin-top: 20px;
+ height: 350px;
+ width: 300px;
+
+} 
+
+.img-name {
+	color: #1abc9c;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 0px; 
+}
+
+.img-name a,b,del{
+  margin-left: 40px;
+}
+
+.img-name:hover{
+	color: #1abc9c;
+}
+
+
+#Subscribe{
+  margin-top: -8px;
+  margin-left: 4px;
+}
+
+.Leastest-product-element p{
+  color: blue;
+  font-size: 15px;
+  margin-left: 12px;
+}
+
+/*eletron-text*/
+.eletron-text h3{
+  margin-left: 61px;
+  font-size: bold;
+}
+
+/* for content*/
+.container .jumbotron{
+  padding-right: 60px;
+  padding-left: 39px;
+}
+
+
+.jumbotron{
+  background-color: red;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-right: 500px;
+  }/*end*/
+
+  /*ecletronics part*/
+  .well {
+
+    border: none;
+    background: black;
+    color: grey;
+    font-size: 11px;
+    margin-top: -7px;
+    }/*end*/
+
+    .well{
+      border: none;
+    }
+
+    .well p{
+      font-size: 20px;
+    }
+
+
+    #primary:hover{
+      background-color: #000;
+
+    }
+    #primary{
+      color: #fff;
+      background-color: #1abc9c;
+      width: 112px;
+      margin-left: 78px;
+      margin-right: 178px;
+      margin-top: 2px;
+      font-size: 15px;
+    }
+
+    #primary:hover{
+      border: 1px solid #fff;
+    }
+
+    #Subscribe{
+      color: #fff;
+      background-color: #1abc9c;
+      width: 112px;
+    }
+
+    #Subscribe:hover{
+      background-color: #000;
+
+    }
+
+    #Subscribe:hover{
+      border: 1px solid #fff;
+    }
+
+    input.email{
+      width: 180px;
+      height: 37px;
+      font-size: 15px;
+      margin-left: 3px;
+    }
+
+    /* all button*/
+    .btn-primary {
+      color: #fff;
+      background-color: #337ab7;
+      border-color: #2e6da4;
+      margin-left: 5px;
+
+
+    }
+
+    .btn-primary1{
+      color: #fff;
+      background-color: #337ab7;
+      border-color: #2e6da4;
+      margin-left: 5px;
+
+      margin-right: px;
+      margin:20px;
+    }
+    #navigation p{
+      color: grey;
+    }
+
+    #navigation a :hover{
+      color: #1abc9c;
+    }
+
+    #navigation a{
+      color: #1abc9c;
+    }
+    #navigation ul li{
+     list-style: none;
+     font-size: 15px; 
+   }
+
+   #catagori p{
+    color: grey;
+  }
+
+  #catagori a :hover{
+    color: #1abc9c;
+  }
+
+  #catagori a{
+    color: #1abc9c;
+  }
+
+  #catagori ul li{
+    list-style: none;
+    font-size: 15px;  
+  }
+
+  .order{
+   margin-top: -50px;
+ }
+
+ .wishlist{
+   margin-top: -50px;
+ }
+
+ .vendor{
+   margin-top: -50px;
+ }
+ .front{
+   margin-top: -50px;
+ }
+
+ #discover{
+  font-size: 33px;
+  margin-left: 65px;
+  
+}
+
+#mastercard{
+  font-size: 33px;
+  margin-left: 0px;
+  
+}
+
+#paypal{
+  font-size: 33px;
+  margin-left: 0px;
+  
+}
+
+#visa{
+  font-size: 33px;
+  margin-left: 0px;
+  
+}
+
+
+/*pagination*/
+.pagination {
+  display: inline-block;
+}
+
+.pagination li a {
+  color: #1abc9c;
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: #000;
+  color: white;
+}
+
+
+
+.pagination{
+  margin-left: 34%;
+}
+
+.Expand{
+	margin-left: 10px;
+}
+/*end*/
